@@ -1,8 +1,8 @@
-This project gives support to reproduce the results presented in the paper "Comparison of Classification and Regression Models for Port Selection in Fluid Antenna Systems". 
+This project gives support to reproduce the results presented in the paper **"Comparison of Classification and Regression Models for Port Selection in Fluid Antenna Systems"**. 
 
-As described in Section "III.E. Hyperparameter Optimization", we considered the Optuna framework to identify the optimal architecture for each scenario based on the number of observed ports. The tables below present architectures found in our analysis.
+As described in Section **"III.E. Hyperparameter Optimization"**, we considered the Optuna framework to identify the optimal architecture for each scenario based on the number of observed ports. The tables below present architectures found in our analysis.
 
-**Table: Architectures found for regression models for different numbers of observed ports**  
+## Table: Architectures found for regression models for different numbers of observed ports
   
 | Amount of Observed Ports | 5       | 6       | 7        | 8        | 9        | 10               | 15       |
 |---------------------------|---------|---------|----------|----------|----------|------------------|----------|
@@ -24,7 +24,7 @@ As described in Section "III.E. Hyperparameter Optimization", we considered the 
 | Total Parameters          | 46584   | 96619   | 117780   | 4488     | 68010    | 178464           | 74745    |
 | FLOP Count                | 24395   | 13404394| 2562444  | 8833     | 135596   | 259612           | 16382005 |
 
-**Table: rchitectures found for multi-label classification models for different numbers of observed ports**  
+## Table: rchitectures found for multi-label classification models for different numbers of observed ports
 
 | Amount of Observed Ports | 5       | 6                | 7     | 8     | 9      | 10     | 15      |
 |---------------------------|---------|------------------|-------|-------|--------|--------|---------|
