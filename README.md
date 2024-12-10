@@ -24,7 +24,7 @@ As described in Section **"III.E. Hyperparameter Optimization"**, we considered 
 | Total Parameters          | 46584   | 96619   | 117780   | 4488     | 68010    | 178464           | 74745    |
 | FLOP Count                | 24395   | 13404394| 2562444  | 8833     | 135596   | 259612           | 16382005 |
 
-## Table: rchitectures found for multi-label classification models for different numbers of observed ports
+## Table: Architectures found for multi-label classification models for different numbers of observed ports
 
 | Amount of Observed Ports | 5       | 6                | 7     | 8     | 9      | 10     | 15      |
 |---------------------------|---------|------------------|-------|-------|--------|--------|---------|
